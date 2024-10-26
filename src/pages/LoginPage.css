@@ -1,0 +1,53 @@
+.mainContainer {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  /* background: linear-gradient(#2A00B7, #42006C); */
+  /* background: #2A00B7; */
+  margin-top: 12%;
+  /* margin-top: 18px; */
+  /* height: 100%; */
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  /* justify-content: center; */
+  /* background: #fff; */
+  background: linear-gradient(#2A00B7, #42006C);
+  /* margin-top: 12%; */
+  width: 40%;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+} */
+
+.errorLabel {
+  color: red;
+  font-size: 12px;
+}
+
+.inputBox {
+  height: 48px;
+  width: 400px;
+  font-size: large;
+  border-radius: 8px;
+  border: 1px solid grey;
+  padding-left: 8px;
+}
